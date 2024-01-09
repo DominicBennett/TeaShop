@@ -1,0 +1,153 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /*opacity: 1;*/
+    z-index: 1;
+    background-color: black;
+
+}
+
+#teacozylogo {
+    float: left;
+    max-height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+ul {
+    text-align: right;
+}
+
+li {
+    display: inline-block;
+    text-decoration: underline;
+    margin-right: 15px;
+    
+}
+
+h2 h4 { 
+    
+    margin: 10px;
+
+}
+
+h4 {
+    vertical-align: top;
+}
+
+*#main-content {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+}
+
+#mission-image {
+    height: 700px;
+}
+
+
+#mission-banner {
+    background-image: url("images/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission-statement {
+    position:absolute;
+    background-color: black;
+    margin-top: 300px;
+    width: 100%;
+}
+
+#mission-statement h2 h4 {
+
+    margin: 5px;
+
+}
+
+#tea-of-the-month {
+    
+
+}
+#teas-container {
+    display: inline-flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.teas {
+    margin: 0 10px;
+    height: 200px;
+    width: 300px;
+}
+
+
+#locations {
+    background-image: url("images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+}
+
+#locations h2 {
+    padding-top: 50px;
+    margin-bottom: 15px;
+    line-height: 1em;
+}
+
+.address-container {
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.address {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+#contact-details {
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+    font-size: smaller;
+    font-weight: bold;
+
+}
